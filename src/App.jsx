@@ -27,7 +27,7 @@ function App() {
               <Route path="*" element={<PageNotFound />} />
             </Routes>
           </div>
-          <div className="bg-gray-400 fixed bottom-0 w-full py-4 flex justify-center">
+          <div className="bg-red-400 fixed bottom-0 w-full py-4 flex justify-center text-white">
             <Footer />
           </div>
         </Router>

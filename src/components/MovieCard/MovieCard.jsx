@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function MovieCard({ movie }) {
   //   console.log("props moive", props.movie.Poster);
   return (
-    <div className="flex flex-col border border-white rounded-lg">
+    <div className="flex flex-col border border-white rounded-lg bg-red-400">
       <div className="card-image ">
         <img
           className="w-full h-[400px] md:h-[300px] lg:h-[450px] rounded-t-lg"
